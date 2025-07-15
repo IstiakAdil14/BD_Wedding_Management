@@ -1,0 +1,10 @@
+import React, { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+import Footer from "../components/Footer";
+
+import { FaPaintBrush, FaUtensils, FaCamera, FaMusic } from "react-icons/fa";
+
+import { Editor, EditorState, convertFromRaw } from "draft-js";
+
+const iconMap = {
+  FaPaintBrush: (

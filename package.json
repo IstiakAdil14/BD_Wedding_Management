@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "jwt-decode": "^4.0.0",
+    "next-connect": "^1.0.0",
+    "react-hook-form": "^7.56.2",
+    "swr": "^2.3.4"
+  }
+}

@@ -1,0 +1,71 @@
+import React, { useRef, useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import Footer from "../components/Footer";
+
+const About = () => {
+  const [teamMembers, setTeamMembers] = useState([]);
+  const scrollRef = useRef(null);
+
+  useEffect(() => {
+    // Fetch team members from API
+    const fetchTeamMembers = async () => {
+      try {
+        const response = await fetch("/api/admin/team");
+        if (!response.ok) {
+          throw new Error("Failed to fetch team members");
+        }
+        const data = await response.json();
+        setTeamMembers(data.filter(member => member.visible !== false));
+      } catch (error) {
+        console.error("Error fetching team members:", error);
+      }
+    };
+
+    fetchTeamMembers();
+  }, []);
+
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+
+    const onWheel = (e) => {
+      if (e.deltaY === 0) return;
+      e.preventDefault();
+      el.scrollBy({ left: e.deltaY, behavior: "smooth" });
+    };
+
+    el.addEventListener("wheel", onWheel, { passive: false });
+
+    return () => {
+      el.removeEventListener("wheel", onWheel);
+    };
+  }, []);
+
+  const scrollLeft = () => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({ left: -300, behavior: "smooth" });
+    }
+  };
+
+  const scrollRight = () => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({ left: 300, behavior: "smooth" });
+    }
+  };
+
+  return (
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 flex flex-col">
+      <motion.main
+        className="mt-4 flex-grow max-w-7xl mx-auto p-4 sm:p-6 md:p-8"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
+        {/* Story */}
+        <section className="mb-12 px-4 sm:px-6 md:px-0">
+          <h1 className="text-3xl sm:text-4xl font-extrabold mb-4 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent">
+            Our Story
+          </h1>
+          <p className="text-base sm:text-lg md:text-xl leading-relaxed">
+            BD Wedding Planner was founded with the vision to create
+            unforgettable wedding experiences that blend the rich traditions of

@@ -1,0 +1,18 @@
+import React, { useContext, useState, useEffect } from "react";
+import Link from "next/link";
+import { DarkModeContext } from "../context/DarkModeContext";
+import { motion } from "framer-motion";
+import SpaceDashboardIcon from "@mui/icons-material/SpaceDashboard";
+import LoginIcon from "@mui/icons-material/Login";
+import LogoutIcon from "@mui/icons-material/Logout";
+import EventIcon from "@mui/icons-material/Event";
+import HomeIcon from "@mui/icons-material/Home";
+import InfoIcon from "@mui/icons-material/Info";
+import MiscellaneousServicesIcon from "@mui/icons-material/MiscellaneousServices";
+import PhotoLibraryIcon from "@mui/icons-material/PhotoLibrary";
+import CommentIcon from "@mui/icons-material/Comment";
+import ContactMailIcon from "@mui/icons-material/ContactMail";
+import Tooltip from "@mui/material/Tooltip";
+import WbSunnyIcon from "@mui/icons-material/WbSunny";
+import NightsStayIcon from "@mui/icons-material/NightsStay";
+import { useAuth } from "../context/AuthContext";
