@@ -13,6 +13,7 @@ This is a dynamic and elegant platform designed for managing wedding events in B
  Urmi Ghose, 
  Jannat Arbin Chowdhury Omi  
 **Date:** 05-04-2025
+
 ---
 
 ## 📌 Project Overview
