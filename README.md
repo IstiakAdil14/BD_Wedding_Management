@@ -85,7 +85,7 @@ The system is divided into three main modules:
 | **Backend**        | Node.js, Express.js                   |
 | **Database**       | MongoDB with Mongoose                 |
 | **Authentication** | JWT, Passport                         |
-| **Email Services** | Nodemailer, SendGrid                  |
+| **Email Services** | Nodemailer                  |
 | **File Uploads**   | Multer                                |
 
 
