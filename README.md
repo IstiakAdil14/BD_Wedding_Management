@@ -9,7 +9,9 @@ This is a dynamic and elegant platform designed for managing wedding events in B
 
 **Project Title:** Dynamic Wedding Management Platform for Bangladesh  
 **Prepared For:** Sabuj Chandra Paul  
-**Prepared By:** Md. Istiak Hussain, Urmi Ghose, Jannat Arbin Chowdhury Omi  
+**Prepared By:** Md. Istiak Hussain,
+ Urmi Ghose, 
+ Jannat Arbin Chowdhury Omi  
 **Date:** 05-04-2025
 ---
 
