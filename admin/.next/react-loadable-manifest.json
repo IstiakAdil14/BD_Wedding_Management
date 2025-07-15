@@ -1,4 +1,16 @@
 {
+  "components\\PortfolioCategoryDialog.js -> react-draft-wysiwyg": {
+    "id": "components\\PortfolioCategoryDialog.js -> react-draft-wysiwyg",
+    "files": [
+      "static/chunks/_pages-dir-browser_node_modules_react-draft-wysiwyg_dist_react-draft-wysiwyg_js.js"
+    ]
+  },
+  "components\\PortfolioEventDialog.js -> react-draft-wysiwyg": {
+    "id": "components\\PortfolioEventDialog.js -> react-draft-wysiwyg",
+    "files": [
+      "static/chunks/_pages-dir-browser_node_modules_react-draft-wysiwyg_dist_react-draft-wysiwyg_js.js"
+    ]
+  },
   "components\\ServiceDialog.js -> react-draft-wysiwyg": {
     "id": "components\\ServiceDialog.js -> react-draft-wysiwyg",
     "files": [
