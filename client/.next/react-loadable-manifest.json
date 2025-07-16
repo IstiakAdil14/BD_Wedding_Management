@@ -1,4 +1,10 @@
 {
+  "components\\HeroSection.js -> react-draft-wysiwyg": {
+    "id": "components\\HeroSection.js -> react-draft-wysiwyg",
+    "files": [
+      "static/chunks/_pages-dir-browser_node_modules_react-draft-wysiwyg_dist_react-draft-wysiwyg_js.js"
+    ]
+  },
   "node_modules\\jspdf\\dist\\jspdf.es.min.js -> canvg": {
     "id": "node_modules\\jspdf\\dist\\jspdf.es.min.js -> canvg",
     "files": [
@@ -31,18 +37,6 @@
   },
   "pages\\contact.js -> react-draft-wysiwyg": {
     "id": "pages\\contact.js -> react-draft-wysiwyg",
-    "files": [
-      "static/chunks/_pages-dir-browser_node_modules_react-draft-wysiwyg_dist_react-draft-wysiwyg_js.js"
-    ]
-  },
-  "pages\\services\\[id].js -> react-draft-wysiwyg": {
-    "id": "pages\\services\\[id].js -> react-draft-wysiwyg",
-    "files": [
-      "static/chunks/_pages-dir-browser_node_modules_react-draft-wysiwyg_dist_react-draft-wysiwyg_js.js"
-    ]
-  },
-  "pages\\testimonials.js -> react-draft-wysiwyg": {
-    "id": "pages\\testimonials.js -> react-draft-wysiwyg",
     "files": [
       "static/chunks/_pages-dir-browser_node_modules_react-draft-wysiwyg_dist_react-draft-wysiwyg_js.js"
     ]

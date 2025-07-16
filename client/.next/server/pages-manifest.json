@@ -2,10 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/portfolio": "pages/portfolio.js",
-  "/services/[id]": "pages/services/[id].js",
-  "/testimonials": "pages/testimonials.js",
-  "/contact": "pages/contact.js",
+  "/login": "pages/login.js",
+  "/": "pages/index.js",
   "/dashboard": "pages/dashboard.js",
+  "/contact": "pages/contact.js",
   "/api/auth/client-personal-details": "pages/api/auth/client-personal-details.js"
 }

@@ -2,7 +2,12 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/portfolio": "pages/portfolio.js",
-  "/testimonials": "pages/testimonials.js"
+  "/home/footer": "pages/home/footer.js",
+  "/messages": "pages/messages.js",
+  "/adminUsers": "pages/adminUsers.js",
+  "/api/admin/adminUsers": "pages/api/admin/adminUsers.js",
+  "/api/admin/profile": "pages/api/admin/profile.js",
+  "/dashboard": "pages/dashboard.js",
+  "/api/admin/recentActivities": "pages/api/admin/recentActivities.js",
+  "/api/admin/servicesByCategory": "pages/api/admin/servicesByCategory.js"
 }

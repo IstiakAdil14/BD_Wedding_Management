@@ -1,0 +1,37 @@
+The BD Wedding project development workflow involves three main components:
+
+1. Backend Server (server/):
+   - Built with Node.js, Express, and MongoDB.
+   - Provides RESTful API endpoints for managing services, events, bookings, testimonials, and more.
+   - Handles authentication for both admin and client users using JWT and password hashing.
+   - Manages file uploads, email services, OTP verification, and OAuth.
+   - Serves static files and connects to MongoDB for data persistence.
+   - Includes utility scripts for tasks like admin user creation.
+   - Runs on port 5000 and serves as the central data and business logic layer.
+
+2. Admin Panel Frontend (admin/):
+   - A Next.js application serving as the administrative dashboard.
+   - Allows admins to manage website content, services, portfolios, testimonials, team members, and orders.
+   - Features dark mode, rich text editors, data visualization, and email integration.
+   - Proxies API requests to the backend server for seamless data operations.
+   - Uses React context and hooks for state management and UI behavior.
+   - Runs on port 3000 during development.
+
+3. Client Frontend (client/):
+   - A Next.js application providing the user-facing interface.
+   - Supports user authentication, profile management, service browsing, and contact forms.
+   - Manages authentication state with JWT tokens and React context.
+   - Integrates with the backend API for data fetching and mutations.
+   - Supports dark mode and uses modern UI libraries like Material UI and Tailwind CSS.
+   - Runs on port 3000 during development.
+
+Development Workflow Summary:
+- Developers work on the backend server to build and maintain API endpoints, authentication, and business logic.
+- The admin panel frontend is developed to provide content and service management capabilities, interacting with the backend APIs.
+- The client frontend is developed to offer a seamless user experience for wedding-related services, consuming backend APIs securely.
+- Local development involves running the backend on port 5000 and the frontends on port 3000, with API requests proxied appropriately.
+- Environment variables are used across all components for configuration.
+- The workflow includes running utility scripts, managing database connections, and handling file uploads.
+- Modern React features like context, hooks, and rich text editors are leveraged in the frontends for enhanced UX.
+
+This structured separation of concerns facilitates efficient development, testing, and deployment of the BD Wedding platform.
