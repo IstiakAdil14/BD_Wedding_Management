@@ -44,7 +44,7 @@ The system is divided into three main modules:
 - Built with **Node.js**, **Express**, and **MongoDB**
 - Handles:
   - 🔒 API authentication using **JWT** and **Passport**
-  - 📧 Email notifications via **Nodemailer** & **SendGrid**
+  - 📧 Email notifications via **Nodemailer**
   - 📂 File uploads using **Multer**
 
 ---
